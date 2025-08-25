@@ -16,7 +16,7 @@ jobs:
                 echo "USER_UID=gs-user" >> $GITHUB_ENV
                 echo "USER_GID=gs-user" >> $GITHUB_ENV
                 echo "USERNAME=gs-used" >> $GITHUB_ENV
-                echo "CUDA_VERSION=12.8" >> $GITHUB_ENV
+                echo "CUDA_VERSION=12.8.1" >> $GITHUB_ENV
 
 
             - name: Build Docker image
