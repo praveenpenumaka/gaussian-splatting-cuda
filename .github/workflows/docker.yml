@@ -14,7 +14,7 @@ jobs:
             - name: Load environment variables
               run: |
                 echo "USER_UID=gs-user" >> $GITHUB_ENV
-                echo "USER_GID=gs-user" >> $GITHUB_ENV
+                echo "USER_GID=gs-users" >> $GITHUB_ENV
                 echo "USERNAME=gs-user" >> $GITHUB_ENV
                 echo "CUDA_VERSION=12.8.1" >> $GITHUB_ENV
 
